@@ -1,16 +1,16 @@
 body {
     overflow-x: hidden;
     background: radial-gradient(
-        180% 100% at top, /* adjust the 400% to control the curve */
-        #272525, #272525, #272525, #52178a, #9665c4, #ffffff, #fff, #fff);
+      180% 100% at top, /* adjust the 400% to control the curve */
+      #010103, #010103, #52178A, #5e2594bc, #9665c44d, #EBBFFF);
 }
 
 .fundoInicio{
- 
+
   }
 
 .icon{
-    fill: #272525
+    fill: #FFF
 }
 
 .conteudo {
@@ -28,29 +28,91 @@ body {
     z-index: -1; /* Coloca a div por baixo de todas as outras */
 }
 
-.por-baixo2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 10%;
-
-    z-index: -1; /* Coloca a div por baixo de todas as outras */
+.bola,
+.bola2,
+.bola3,
+.bola4{
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  background-color: #FD0E0E;
+  border: #F93737 solid 1px;
+  position: absolute; 
+  bottom: 1;
+  z-index: 2;
+}
+.bola2{
+  background-color: #FDBA0E;
+  border: #FFC839 solid 1px;
+}
+.bola3{
+  background-color: #13BC24;
+  border: #38C346 solid 1px;
+}
+.bola4{
+  background-color: #3A36F0;
+  border: #6C6AFB solid 1px;
 }
 
-.cardmenu {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.222);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    transition: all ease 0.3s;
-    background-color: rgba(111, 0, 255, 0.432);
+.area-bola {
+  background-color: #0101038c;
+
+}
+
+.borda {
+padding: 2px;
+border-radius: 7px;
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(185,184,196,1) 82%, rgba(77,77,77,1) 100%);
+}
+
+.cardmenu,
+.cardmenu2,
+.cardmenu3,
+.cardmenu4 {
+  position: relative;
+  height: 200px;
+  width: 280px;
+  border-radius: 5px;
+
+  background: radial-gradient(
+      120% 100% at top,
+      #FD0E0E, #52178A, #52178A, #52178a7a);
+
+  z-index: 1;
+}
+
+.cardmenu2 {
+  background: radial-gradient(
+      120% 100% at top,
+      #fdb90eac, #52178A, #52178A, #52178a7a);
+}
+
+.cardmenu3 {
+  background: radial-gradient(
+      120% 100% at top,
+      #13BC24, #52178A, #52178A, #52178a7a);
+}
+
+.cardmenu4 {
+  background: radial-gradient(
+      120% 100% at top,
+      #3A36F0, #52178A, #52178A, #52178a7a);
+}
+
+.cardmenu-baixo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #d9d9d94e;
+  z-index: -3;
 }
 
 .cardmenu:hover {
-    box-shadow: 0px 0px 20px 1px #8d56f33f;
-    border: 1px solid rgba(255, 255, 255, 0.454);
+   
   }
 
   .cardmenu div span {
