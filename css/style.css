@@ -1,18 +1,21 @@
+@font-face {
+    font-family: Vertice;
+    src: url(../font/LEMONMILK-Regular.otf);
+}
+
 body {
     overflow-x: hidden;
     background: radial-gradient(
-      180% 100% at top, /* adjust the 400% to control the curve */
-      #010103, #010103, #52178A, #5e2594bc, #9665c44d, #EBBFFF);
+        500% 100% at top, /*primeiro valor é o da curva*/
+        #010103, #010103, #52178A, #5e2594bc, #9665c44d, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF
+    );
 }
 
-.fundoInicio{
+/*SECTIONS*/
 
-  }
-
-.icon{
-    fill: #FFF
+.area-inicio {
+    height: 85vh;
 }
-
 .conteudo {
     position: relative;
     z-index: 1; /* Garante que o conteúdo fique acima da div por baixo */
@@ -28,102 +31,192 @@ body {
     z-index: -1; /* Coloca a div por baixo de todas as outras */
 }
 
-.bola,
-.bola2,
-.bola3,
-.bola4{
-  height: 70px;
-  width: 70px;
-  border-radius: 70px;
-  background-color: #FD0E0E;
-  border: #F93737 solid 1px;
-  position: absolute; 
-  bottom: 1;
-  z-index: 2;
+.area-somos-beneficios {
+    height: 100vh;
 }
+
+.area-beneficios {
+    height: 40%;
+}
+
+.area-quem-somos {
+    height: 60%;
+}
+.area-texto {
+    width: 60%;
+}
+.area-texto2 {
+    width: 30%;
+}
+
+.area-projeto {
+    height: 80vh;
+}
+
+.area-equipe {
+    height: 80vh;
+}
+.area-titulo-equipe {
+    height: 35%;
+}
+.area-carousel-equipe {
+    height: 65%;
+}
+
+.area-contato {
+    height: 80vh;
+}
+
+.area-footer {
+    height: 40vh;
+    background-color: #010103;
+}
+
+/*TEXTOS*/
+p {
+    font-family: Vertice;
+
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.titulo {
+    font-size: 60px;
+}
+
+.texto {
+    font-size: 20px;
+}
+.texto2 {
+    font-size: 17px;
+}
+
+.vertice {
+    color: #52178A;
+}
+
+.titulo-bilhete {
+    font-size: 50px;
+}
+.bilhete {
+    color: red;
+}
+
+.text-btn {
+    color: #FFF;
+}
+.text-sm-btn {
+    font-size: 10px;
+}
+.text-ad {
+    font-size: 14px;
+}
+
+.text-card-beneficios {
+    font-size: 14px;
+    color: white;
+}
+
+/*BOTOES*/
+.apple-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+}
+.play-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.ad-btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 3px solid #000;
+}
+
+/*IMAGENS*/
+
+.img-celular {
+    width: 85%;
+}
+
+.iconw{
+    fill: white
+}
+.iconb{
+    fill: #000;
+}
+
+/*CARDS BENEFICIOS*/
+
+.area-card-beneficio {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.area-borda-beneficio{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(185,184,196,1) 82%, rgba(136, 136, 136, 0.623) 100%);
+}
+.area-bola {
+    height: 15%;
+}
+.bola-beneficio {
+    position: relative;
+    top: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+}
+.bola1{
+    background-color: #FD0E0E;
+    border: #F93737 solid 1px;
+}  
 .bola2{
-  background-color: #FDBA0E;
-  border: #FFC839 solid 1px;
+    background-color: #FDBA0E;
+    border: #FFC839 solid 1px;
 }
 .bola3{
-  background-color: #13BC24;
-  border: #38C346 solid 1px;
+    background-color: #13BC24;
+    border: #38C346 solid 1px;
 }
 .bola4{
-  background-color: #3A36F0;
-  border: #6C6AFB solid 1px;
+    background-color: #3A36F0;
+    border: #6C6AFB solid 1px;
 }
 
-.area-bola {
-  background-color: #0101038c;
-
+.area-infos-card {
+    height: 85%;
+    width: 100%;
 }
-
-.borda {
-padding: 2px;
-border-radius: 7px;
-background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(185,184,196,1) 82%, rgba(77,77,77,1) 100%);
+.fundo-card1 {
+    background: radial-gradient(
+    120% 100% at top,
+    #FD0E0E, #52178A, #52178A, #52178a7a);  
 }
-
-.cardmenu,
-.cardmenu2,
-.cardmenu3,
-.cardmenu4 {
-  position: relative;
-  height: 200px;
-  width: 280px;
-  border-radius: 5px;
-
-  background: radial-gradient(
-      120% 100% at top,
-      #FD0E0E, #52178A, #52178A, #52178a7a);
-
-  z-index: 1;
+.fundo-card2 {
+    background: radial-gradient(
+    120% 100% at top,
+    #fdb90eac, #52178A, #52178A, #52178a7a);
 }
-
-.cardmenu2 {
-  background: radial-gradient(
-      120% 100% at top,
-      #fdb90eac, #52178A, #52178A, #52178a7a);
+  
+  .fundo-card3 {
+    background: radial-gradient(
+    120% 100% at top,
+    #13BC24, #52178A, #52178A, #52178a7a);
 }
-
-.cardmenu3 {
-  background: radial-gradient(
-      120% 100% at top,
-      #13BC24, #52178A, #52178A, #52178a7a);
+  
+.fundo-card4 {
+    background: radial-gradient(
+    120% 100% at top,
+    #3A36F0, #52178A, #52178A, #52178a7a);
 }
-
-.cardmenu4 {
-  background: radial-gradient(
-      120% 100% at top,
-      #3A36F0, #52178A, #52178A, #52178a7a);
-}
-
-.cardmenu-baixo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  background-color: #d9d9d94e;
-  z-index: -3;
-}
-
-.cardmenu:hover {
-   
-  }
-
-  .cardmenu div span {
-    font-size: 0.8rem;
-    font-weight: 300;
-  }
-
-  .cardmenu .box div p {
-    margin: 0;
-    font-size: 0.9em;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    color: white
-  }
