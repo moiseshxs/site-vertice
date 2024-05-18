@@ -1,0 +1,58 @@
+/* Estilos gerais */
+.carousel-inner {
+    padding: 1em;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card {
+    margin: 0 .5em;
+}
+
+.card-equipe {
+    height: 100%;
+    width: 100%;
+}
+
+.img-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.card-img {
+    height: 230px;
+    width: 230px;
+    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
+}
+
+/* Estilos específicos para telas com largura mínima de 576px */
+@media screen and (min-width: 576px) {
+    .carousel-inner {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .carousel-item {
+        flex: 0 0 calc(100% / 4);
+        margin-right: 0;
+        display: block;
+    }
+
+    .img-wrapper {
+        height: auto; /* Permite que a altura se ajuste automaticamente */
+    }
+}
+
+/* Estilos para os controles do carrossel */
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+    position: relative;
+}
+
+/* Estilo específico para ajustar a altura da seção */
+.section {
+    height: 80vh;
+    overflow: hidden;
+}

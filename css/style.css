@@ -54,7 +54,7 @@ body {
 }
 
 .area-equipe {
-    height: 80vh;
+    height: 90vh;
 }
 .area-titulo-equipe {
     height: 35%;
@@ -64,7 +64,7 @@ body {
 }
 
 .area-contato {
-    height: 80vh;
+    height: 70vh;
 }
 
 .area-footer {
@@ -219,4 +219,19 @@ p {
     background: radial-gradient(
     120% 100% at top,
     #3A36F0, #52178A, #52178A, #52178a7a);
+}
+
+/* CARD CONTATO */
+.card-contato {
+    background-color: #9665c466;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fundo-form {
+    background-color: #9665c466;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
 }
