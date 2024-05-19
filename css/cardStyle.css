@@ -5,13 +5,16 @@
     width: 100%;
 }
 
-.card {
-    margin: 0 .5em;
-}
-
 .card-equipe {
     height: 100%;
     width: 100%;
+    margin: 0 .5em;
+}
+.icon-card {
+    transition: transform 0.3s ease;
+}
+.icon-card:hover {
+    transform: scale(1.2);
 }
 
 .img-wrapper {
@@ -22,8 +25,8 @@
 }
 
 .card-img {
-    height: 230px;
-    width: 230px;
+    height: 210px;
+    width: 210px;
     object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
 }
 
@@ -49,10 +52,4 @@
 .carousel-control-prev, .carousel-control-next {
     opacity: 1;
     position: relative;
-}
-
-/* Estilo específico para ajustar a altura da seção */
-.section {
-    height: 80vh;
-    overflow: hidden;
 }

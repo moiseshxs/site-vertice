@@ -73,7 +73,7 @@ body {
 }
 
 /*TEXTOS*/
-p {
+p, h5 {
     font-family: Vertice;
 
     margin: 0px;
@@ -90,6 +90,10 @@ p {
 }
 .texto2 {
     font-size: 17px;
+}
+
+.card-title{
+    color: #000;
 }
 
 .vertice {
@@ -116,6 +120,14 @@ p {
 .text-card-beneficios {
     font-size: 14px;
     color: white;
+}
+
+.titulo-contato {
+    font-size: 20px;
+}
+.sub-text-contato {
+    font-size: 14px;
+    color: #2b2a2a;
 }
 
 /*BOTOES*/
@@ -234,4 +246,42 @@ p {
     height: 100%;
     width: 100%;
     border-radius: 5px;
+}
+
+/*INPUT*/
+.input-contato {
+    font-family: Vertice;
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #00000000;
+    padding-left: 10px;
+}
+
+.input-grande-contato {
+    font-family: Vertice;
+    height: 80%;
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #00000000;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: rgb(21, 0, 59); /* Altere a cor conforme necessário */
+    opacity: 1; /* Define a opacidade para garantir que a cor seja totalmente visível */
+}
+
+.botao-contato {
+    font-family: Vertice;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #850EFD;
+    color: #fff;
+    font-weight: bold;
 }
