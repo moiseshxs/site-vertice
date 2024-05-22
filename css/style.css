@@ -5,10 +5,14 @@
 
 body {
     overflow-x: hidden;
+
     background: radial-gradient(
         500% 100% at top,
         #010103, #010103, #52178A, #5e2594bc, #9665c44d, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF, #EBBFFF
     );
+
+    scroll-padding-top: 100px;
+    scroll-behavior:smooth;
 }
 
 /*SECTIONS*/
@@ -69,11 +73,11 @@ body {
 
 .area-footer {
     height: 40vh;
-    background-color: #010103;
+    background-color: #9665c466;
 }
 
 /*TEXTOS*/
-p, h5 {
+p, h5, a {
     font-family: Vertice;
 
     margin: 0px;
@@ -285,3 +289,4 @@ input::placeholder {
     color: #fff;
     font-weight: bold;
 }
+
