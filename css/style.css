@@ -77,6 +77,10 @@ body {
     background-color: #9665c466;
 }
 
+.contatoMobile{
+    font-size: 10px;
+}
+
 /*TEXTOS*/
 p, h5, a {
     font-family: Vertice;
@@ -86,7 +90,7 @@ p, h5, a {
     color: #000;
 }
 
-.titulo {
+.titulo, .tituloQuemSomos {
     font-size: 60px;
 }
 
@@ -204,7 +208,7 @@ p, h5, a {
         width: 50px;
         border-radius: 70px;
     }
-    .titulo {
+    .tituloQuemSomos {
         font-size: 30px;
         text-align: center;
     }
@@ -212,7 +216,31 @@ p, h5, a {
         font-size: 17px;
         text-align: justify;
     }
+    .area-quem-somos{
+        height: 90%;
+    margin-top: 80px;
     
+    }
+    .area-projeto {
+        height: 65vh;
+        margin-top: 320px;
+       
+    }
+    .txtLoja{
+        font-size: 12px !important;
+    }
+    .img-celular {
+        height: 100%;
+    }
+
+    .titulo-bilhete {
+        font-size: 22px;
+    }
+
+    .area-equipe {
+        height: 90vh;
+        margin-top: 200px;
+    }
 }
 .bola1{
     background-color: #FD0E0E;
