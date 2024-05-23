@@ -1,3 +1,7 @@
+:root {
+    --corFundo: #9665c4;
+  }
+
 .navbar {
     background-color: #9665c466;
     backdrop-filter: blur(10px); /* Efeito de desfoque */
@@ -36,6 +40,11 @@
 }
 .contato::after{
     background-color: rgb(0, 0, 0);
+}
+
+#offcanvasNavbar{
+    
+    background-color: var(--corFundo) !important;
 }
 
 @keyframes expand-border {

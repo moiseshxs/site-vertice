@@ -19,6 +19,7 @@ body {
 
 .area-inicio {
     height: 85vh;
+    overflow-x: hidden;
 }
 .conteudo {
     position: relative;
@@ -192,6 +193,26 @@ p, h5, a {
     height: 70px;
     width: 70px;
     border-radius: 70px;
+}
+
+
+@media(max-width:800px){
+    .bola-beneficio {
+        position: relative;
+        top: 0;
+        height: 50px;
+        width: 50px;
+        border-radius: 70px;
+    }
+    .titulo {
+        font-size: 30px;
+        text-align: center;
+    }
+    .texto, .texto2{
+        font-size: 17px;
+        text-align: justify;
+    }
+    
 }
 .bola1{
     background-color: #FD0E0E;
