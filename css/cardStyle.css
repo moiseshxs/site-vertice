@@ -25,9 +25,9 @@
 }
 
 .card-img {
-    height: 210px;
-    width: 210px;
-    object-fit: cover; /* Garante que a imagem cubra o contêiner sem distorção */
+    height: 200px;
+    width: 200px;
+    object-fit: contain; /* Garante que a imagem cubra o contêiner sem distorção */
 }
 
 /* Estilos específicos para telas com largura mínima de 576px */
