@@ -17,12 +17,12 @@
 
 <body>
     <header class="">
-        <nav class="navbar navbar-expand-lg navbar-light mt-2 rounded-1 fixed-top mx-3">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light mt-2 rounded-1 fixed-top mx-3">
             <!-- Container wrapper -->
             <div class="container-fluid">
               <!-- Toggle button -->
               <a class="navbar-brand" href="#home">
-                <img src="./img/nome(v).png" alt="logo" class="img-fluid img-nav">
+                <img id="navbarLogo" src="./img/logobranca.png" alt="logo" class="img-fluid img-nav">
               </a>
               <button class="navbar-toggler" id="butonOfCanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon navbar-dark"></span>
@@ -32,17 +32,20 @@
               <div class="collapse navbar-collapse" id="navbarRightAlignExample">
                 <!-- Left links -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item me-2">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
                   </li>
-                  <li class="nav-item me-2">
+                  <li class="nav-item me-3">
                     <a class="nav-link" href="#beneficios">Beneficios</a>
                   </li>
-                  <li class="nav-item me-2">
+                  <li class="nav-item me-3">
                     <a class="nav-link" href="#quemSomos">Quem Somos</a>
                   </li>
-                  <li class="nav-item me-2">
+                  <li class="nav-item me-3">
                     <a class="nav-link" href="#projeto">Projeto</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="#equipe">Nossa Equipe</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link contato" href="#contato">Contato</a>
@@ -311,7 +314,7 @@
                         <div class="col-12 col-md-2">
                             <div class="row d-flex justify-content-center py-2">
                                 <div class="ad-btn mb-2 d-flex justify-content-center align-items-center">
-                                    <a href="https://youtube.com" target="_blank">
+                                    <a href="https://youtu.be/mJKLvrVvthU?si=NprOEFT4E-MNQ8CW" target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                             class="bi bi-play-fill iconb icon-card" viewBox="0 0 16 16">
                                             <path
@@ -328,7 +331,7 @@
             </div>
         </section>
 
-        <section class="area-equipe">
+        <section id="equipe" class="area-equipe">
             <div class="row area-titulo-equipe m-0">
                 <div class="col-4">
                     <p class="titulo">Nossa Equipe</p>
@@ -873,7 +876,7 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div id="boxFooter" class="col-12 d-flex  justify-content-center align-items-center">
             <div class="d-flex justify-content-center align-items-center">
-                <img src="./img/v-logo/nome(v).png" alt="logo" class="img-fluid img-nav">
+                <img src="./img/nome.png" alt="logo" class="img-fluid img-nav">
             </div>
             <div>
               <ul id="navFooter"
@@ -940,4 +943,5 @@
     crossorigin="anonymous"></script>
 <script src="./js/card.js"></script>
 <script src="./js/scroll.js"></script>
+<script src="./js/navScroll.js"></script>
 </html>

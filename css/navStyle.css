@@ -5,17 +5,29 @@
 .navbar {
     background-color: #9665c466;
     backdrop-filter: blur(10px); /* Efeito de desfoque */
+    transition: color 0.3s;
+
+}
+
+.navbar-light .nav-link {
+    color: white;
+}
+.navbar-light .nav-link.scrolled {
+    color: black !important;
 }
 
 .img-nav{
     height: 35px;
 }
 
+#navbarLogo {
+    transition: all 0.3s;
+}
+
 .nav-link {
     font-size: 15px;
     position: relative;
     display: inline-block;
-    color: black;
     text-decoration: none;
 }
 
@@ -33,13 +45,6 @@
 
 .nav-link:hover::after {
     width: 100%;
-}
-
-.contato{
-    color: white;
-}
-.contato::after{
-    background-color: rgb(0, 0, 0);
 }
 
 #offcanvasNavbar{

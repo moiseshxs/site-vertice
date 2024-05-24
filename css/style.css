@@ -19,7 +19,7 @@ body {
 
 .area-inicio {
     height: 85vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .conteudo {
     position: relative;
