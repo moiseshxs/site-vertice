@@ -1,0 +1,30 @@
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: #FFF;
+}
+.info {
+    display: none;
+    margin-top: 20px;
+}
+.info.active {
+    display: block;
+}
+
+.miniatura {
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+}
+
+.miniatura.active {
+    border: #FFF solid 3px;
+}
