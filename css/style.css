@@ -116,6 +116,10 @@ p, h5, h6, a {
     color: red;
 }
 
+.sistema-de-senha {
+    color: green;
+}
+
 .text-btn {
     color: #FFF;
 }
